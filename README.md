@@ -1,1 +1,1 @@
-# My-Crypto
+# Crypto-Simulator
