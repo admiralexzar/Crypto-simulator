@@ -62,7 +62,7 @@
 
     function addTransaction(type, amount) {
       const now = new Date().toLocaleString();
-      const text = `${type} ${amount} ADM at $${coinValue.toFixed(2)} - ${now}`;
+      const text = `${type} ${amount} XCZ at $${coinValue.toFixed(2)} - ${now}`;
       transactions.unshift(text);
       if (transactions.length > 20) transactions.pop();  // Limit history
     }
